@@ -10,16 +10,17 @@ function App() {
   return (
     <BrowserRouter>
       <header>
+        <NavLink className="site-logo" to ="/">#VanLife</NavLink>
         <nav>
-          <NavLink to ="/">#VANLIFE</NavLink>
           <NavLink to ="/about">About</NavLink>
+          <NavLink to ="/vans">Vans</NavLink>
         </nav>
       </header>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/vans" element={<Vans />} />
-        <Route path="/vans/:vanId" element={<VanDetail />} />
+        <Route path="/vans/:id" element={<VanDetail />} />
       </Routes>
     </BrowserRouter>
   )
