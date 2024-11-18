@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
 import About from "./pages/About";
+import Home from "./pages/Home";
 import Vans from "./pages/Vans/Vans";
 import VanDetail from "./pages/Vans/VanDetail";
 import HostLayout from "./components/HostLayout";
