@@ -45,19 +45,19 @@ export default function HostVanDetail() {
                     Detail
                 </NavLink>
                 <NavLink 
-                to="."
+                to="pricing"
                 className={`host-van-detail-link ${({ isActive }) => (isActive ? "active" : null)}`}
                 >
                     Pricing
                 </NavLink>
                 <NavLink 
-                to="."
+                to="photos"
                 className={`host-van-detail-link ${({ isActive }) => (isActive ? "active" : null)}`}
                 >
                     Photos
                 </NavLink>
             </nav>
-            <Outlet />
+            <Outlet context={{ currentVan }}/>
         </div>
     </section>
     )
