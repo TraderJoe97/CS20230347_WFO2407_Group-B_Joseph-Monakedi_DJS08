@@ -1,8 +1,6 @@
 {
   "name": "cs20230347-wfo2407-group-b-joseph-monakedi-djs08",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "description": "https://v2.scrimba.com/advanced-react-c02h/~02g",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
